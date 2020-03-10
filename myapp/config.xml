@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+<widget id="com.pcard.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>P/Card Showcase</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        P/Card Showcase App
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="projektleitung@pcard.ch" href="https://pcard.ch">
+        P/Card International AG
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />

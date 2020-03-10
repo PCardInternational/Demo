@@ -2,146 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6feb76-9c03-46ae-9f81-5d7dddae66a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/hooks/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/app.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/img/cd-icons - Kopie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/img/cd-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fa-solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/micons/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/micons/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/micons/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/micons/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/micons/micons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/css/vendor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/icons/icon-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/icons/icon-quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/icons/icon-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/photoswipe/default-skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/photoswipe/default-skin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/photoswipe/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/fuji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/fuji@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-beetle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-fuji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-lamp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-salad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-shutterbug.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/gallery/g-woodcraft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/lady-shutterbug.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/lady-shutterbug@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/lamp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/lamp@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/salad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/salad@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/the-beetle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/the-beetle@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/woodcraft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/portfolio/woodcraft@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/sample-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/wheel-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/wheel-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/images/wheel-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-128x128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-512x512_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/icons/icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/andy-crawford.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/brooke-singh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/clara-wilson.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/lauri-erkkila.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/liam-ramirez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/melissa-de-sousa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/nino-durand.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/img/speakers/trinita-rodrigues.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/schedule.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/speakers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/styles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/vorgehen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/www/works.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.zip" beforeDir="false" afterPath="$PROJECT_DIR$/app.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/micons/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/linux/xsel" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/linux/xsel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/windows/clipboard_i686.exe" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/windows/clipboard_i686.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/windows/clipboard_x86_64.exe" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clipboardy/fallbacks/windows/clipboard_x86_64.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/codyhouse-framework/main/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/codyhouse-framework/main/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/vendor/macos/term-size" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/vendor/macos/term-size" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/vendor/windows/term-size.exe" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/vendor/windows/term-size.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +95,7 @@
       <updated>1583015881335</updated>
       <workItem from="1583015882604" duration="142377000" />
       <workItem from="1583337335339" duration="27000" />
-      <workItem from="1583337384402" duration="8736000" />
+      <workItem from="1583337384402" duration="9186000" />
     </task>
     <servers />
   </component>
