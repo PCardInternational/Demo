@@ -20,7 +20,6 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <icon src="img/icons/icon-512x512.png" width="512" height="512" />
-        <icon src="icon-60@3x.png" width="180" height="180" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
