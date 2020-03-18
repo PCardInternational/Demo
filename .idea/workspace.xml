@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6feb76-9c03-46ae-9f81-5d7dddae66a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/ecommerce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/individual.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/intranet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/ki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/software_modern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +106,7 @@
       <updated>1583015881335</updated>
       <workItem from="1583015882604" duration="142377000" />
       <workItem from="1583337335339" duration="27000" />
-      <workItem from="1583337384402" duration="108782000" />
+      <workItem from="1583337384402" duration="119998000" />
     </task>
     <servers />
   </component>
