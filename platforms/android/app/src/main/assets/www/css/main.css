@@ -112,7 +112,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
@@ -268,7 +268,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -1418,7 +1418,7 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 4.6rem;
   line-height: 1.5;
@@ -1428,7 +1428,7 @@ body.menu-is-open {
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -1714,7 +1714,7 @@ body.menu-is-open {
 
 .header-nav h3 {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -1757,7 +1757,7 @@ body.menu-is-open {
 }
 
 .header-nav__list {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1.286;
@@ -1781,7 +1781,7 @@ body.menu-is-open {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.5s ease-in-out;
@@ -2753,7 +2753,7 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
@@ -3626,7 +3626,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .subhead {
-  color: #2a1538;
+  color: #9E6B6B;
 }
 
 .s-contact .section-header,
@@ -3854,7 +3854,7 @@ footer a {
   color: #FFFFFF;
   background-color: #666;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;

@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6feb76-9c03-46ae-9f81-5d7dddae66a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/assets/img/logos/Joomla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/assets/img/logos/Logo_TYPO3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/assets/img/logos/Magento.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/assets/img/logos/WordPress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/assets/img/logos/symfony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/icons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/www/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/css/vendor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/styles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/app.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/vendor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vorgehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/works.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +53,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myapp/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www\assets\img\logos" />
+      <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www\img\icons" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\myapp\www" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start" />
     </key>
@@ -99,7 +122,7 @@
       <updated>1583015881335</updated>
       <workItem from="1583015882604" duration="142377000" />
       <workItem from="1583337335339" duration="27000" />
-      <workItem from="1583337384402" duration="17430000" />
+      <workItem from="1583337384402" duration="104632000" />
     </task>
     <servers />
   </component>

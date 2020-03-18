@@ -76,7 +76,7 @@ body {
 
 body {
   background: #121212;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -112,7 +112,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family:'Tiemann_W02_Light', serif ;
   font-weight: 600;
   color: #FFFFFF;
   text-rendering: optimizeLegibility;
@@ -186,7 +186,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Nunito Sans", sans-serif;
+  font-family:'Futura Lt BT Light', sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.625;
@@ -268,7 +268,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Tiemann_W02_Light', serif ;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -1418,7 +1418,7 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 4.6rem;
   line-height: 1.5;
@@ -1428,7 +1428,7 @@ body.menu-is-open {
 }
 
 .subhead {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -1670,8 +1670,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 230px;
-  height: 50px;
+  width: 250px;
+  height: auto;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1684,7 +1684,7 @@ body.menu-is-open {
   padding: 3.6rem 3rem 3.6rem 6rem;
   height: 100%;
   width: 50%;
-  background: #0C0C0C;
+  background: #050505;
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
   overflow-x: hidden;
@@ -1714,7 +1714,7 @@ body.menu-is-open {
 
 .header-nav h3 {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -1757,7 +1757,7 @@ body.menu-is-open {
 }
 
 .header-nav__list {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1.286;
@@ -1781,7 +1781,7 @@ body.menu-is-open {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.5s ease-in-out;
@@ -1893,7 +1893,7 @@ body.menu-is-open {
   width: 48px;
   height: 45px;
   line-height: 45px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -2022,8 +2022,8 @@ body.menu-is-open {
   }
 
   .header-logo img {
-    width: 230px;
-    height: 50px;
+    width: 250px;
+    height: auto;
   }
 
   .header-nav {
@@ -2113,7 +2113,7 @@ body.menu-is-open {
 }
 
 .home-content h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 700;
   font-size: 18rem;
   line-height: 1;
@@ -2753,7 +2753,7 @@ html.no-csstransitions .home-content__main {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
@@ -3489,7 +3489,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__author {
   margin-top: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.6;
@@ -3500,7 +3500,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__author span {
   display: block;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -3626,7 +3626,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .subhead {
-  color: #2a1538;
+  color: #9E6B6B;
 }
 
 .s-contact .section-header,
@@ -3854,7 +3854,7 @@ footer a {
   color: #FFFFFF;
   background-color: #666;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Tiemann_W02_Light', serif ;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;

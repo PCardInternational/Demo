@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./img/icons/favicon.ico" />
     <script src="js/modernizr.js"></script>
 
     <meta name="theme-color" content="#000000" />
@@ -56,13 +57,7 @@
 
   <!-- preloader
   ================================================== -->
-  <div id="preloader">
-    <div id="loader" class="dots-jump">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </div>
+
 
   <!-- header
   ================================================== -->
@@ -78,11 +73,41 @@
 
       <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-      <h3>Navigate to</h3>
+      <h3>Menü</h3>
 
       <div class="header-nav__content">
+        <!-- GTranslate: https://gtranslate.io/ -->
+        <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="English" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="French" /></a><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="German" /></a><a href="#" onclick="doGTranslate('en|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="Italian" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="Russian" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="32" width="32" alt="Spanish" /></a>
+
+        <style type="text/css">
+          <!--
+          a.gflag {vertical-align:middle;font-size:32px;padding:5px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/32.png);}
+          a.gflag img {border:0;}
+          a.gflag:hover {background-image:url(//gtranslate.net/flags/32a.png);}
+          #goog-gt-tt {display:none !important;}
+          .goog-te-banner-frame {display:none !important;}
+          .goog-te-menu-value:hover {text-decoration:none !important;}
+          body {top:0 !important;}
+          #google_translate_element2 {display:none!important;}
+          -->
+        </style>
+
+        <br />
+        <select onchange="doGTranslate(this);" style="display: none;"><option value="">Select Language</option><option value="en|af">Afrikaans</option><option value="en|sq">Albanian</option><option value="en|ar">Arabic</option><option value="en|hy">Armenian</option><option value="en|az">Azerbaijani</option><option value="en|eu">Basque</option><option value="en|be">Belarusian</option><option value="en|bg">Bulgarian</option><option value="en|ca">Catalan</option><option value="en|zh-CN">Chinese (Simplified)</option><option value="en|zh-TW">Chinese (Traditional)</option><option value="en|hr">Croatian</option><option value="en|cs">Czech</option><option value="en|da">Danish</option><option value="en|nl">Dutch</option><option value="en|en">English</option><option value="en|et">Estonian</option><option value="en|tl">Filipino</option><option value="en|fi">Finnish</option><option value="en|fr">French</option><option value="en|gl">Galician</option><option value="en|ka">Georgian</option><option value="en|de">German</option><option value="en|el">Greek</option><option value="en|ht">Haitian Creole</option><option value="en|iw">Hebrew</option><option value="en|hi">Hindi</option><option value="en|hu">Hungarian</option><option value="en|is">Icelandic</option><option value="en|id">Indonesian</option><option value="en|ga">Irish</option><option value="en|it">Italian</option><option value="en|ja">Japanese</option><option value="en|ko">Korean</option><option value="en|lv">Latvian</option><option value="en|lt">Lithuanian</option><option value="en|mk">Macedonian</option><option value="en|ms">Malay</option><option value="en|mt">Maltese</option><option value="en|no">Norwegian</option><option value="en|fa">Persian</option><option value="en|pl">Polish</option><option value="en|pt">Portuguese</option><option value="en|ro">Romanian</option><option value="en|ru">Russian</option><option value="en|sr">Serbian</option><option value="en|sk">Slovak</option><option value="en|sl">Slovenian</option><option value="en|es">Spanish</option><option value="en|sw">Swahili</option><option value="en|sv">Swedish</option><option value="en|th">Thai</option><option value="en|tr">Turkish</option><option value="en|uk">Ukrainian</option><option value="en|ur">Urdu</option><option value="en|vi">Vietnamese</option><option value="en|cy">Welsh</option><option value="en|yi">Yiddish</option></select><div id="google_translate_element2"></div>
+        <script type="text/javascript">
+          function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'de',autoDisplay: false}, 'google_translate_element2');}
+        </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+        <script type="text/javascript">
+          /* <![CDATA[ */
+          eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+          /* ]]> */
+        </script>
+
 
         <ul class="cd-accordion cd-accordion--animated margin-top-lg margin-bottom-lg">
+
           <li class="cd-accordion__item cd-accordion__item--has-children">
             <input class="cd-accordion__input" type="checkbox" name ="group-1" id="group-1">
             <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-1"><span>Webentwicklung</span></label>
@@ -93,8 +118,8 @@
                 <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-1"><span>Backend Enwicklung</span></label>
 
                 <ul class="cd-accordion__sub cd-accordion__sub--l2">
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>PHP Entwicklungen</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>.Net Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/php.html"><span>PHP Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/net.html"><span>.Net Entwicklungen</span></a></li>
                 </ul>
               </li>
 
@@ -103,21 +128,21 @@
                 <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-2"><span>Frontend Entwicklung</span></label>
 
                 <ul class="cd-accordion__sub cd-accordion__sub--l2">
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>HTML/CSS Entwicklungen</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Angular Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/html_css.html"><span>HTML/CSS Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/angular.html"><span>Angular Entwicklungen</span></a></li>
                 </ul>
               </li>
               <li class="cd-accordion__item cd-accordion__item--has-children">
                 <input class="cd-accordion__input" type="checkbox" name ="sub-group-2" id="sub-group-4">
-                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-4"><span>Speziallösungen</span></label>
+                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-4"><span>Architekturen</span></label>
 
                 <ul class="cd-accordion__sub cd-accordion__sub--l2">
 
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Social Media Applikationen</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Single-Page Application</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Multi-Page Application</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Onlineshop-Entwicklung</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Konfigurator-Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/social_media.html"><span>Social Media Applikationen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/single_page.html"><span>Single-Page Application</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/online_shop.html"><span>Onlineshop-Entwicklung</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/configurator.html"><span>Konfigurator-Entwicklungen</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/microservices.html"><span>Microservices</span></a></li>
                 </ul>
               </li>
 
@@ -125,93 +150,120 @@
           </li>
 
           <li class="cd-accordion__item cd-accordion__item--has-children">
-            <input class="cd-accordion__input" type="checkbox" name ="group-2" id="group-2">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-2"><span>Individuelle Lösungen</span></label>
-
-          <li class="cd-accordion__item cd-accordion__item--has-children">
             <input class="cd-accordion__input" type="checkbox" name ="sub-group-6" id="sub-group-6">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-6"><span>Lösungen</span></label>
+            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-6"><span>Individuelle Lösungen</span></label>
 
             <ul class="cd-accordion__sub cd-accordion__sub--l2">
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>E-Commerce Lösungen</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Intranet- und Extranet-Lösungen</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Künstliche Intelligenz</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Machine Learning</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Individual Software</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/ecommerce.html"><span>E-Commerce Lösungen</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/intranet.html"><span>Intranet- und Extranet-Lösungen</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/ki.html"><span>Künstliche Intelligenz</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/individual.html"><span>Individual Software</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/software_modern.html"><span>Software Modernisierung</span></a></li>
             </ul>
           </li>
-
-
-          <li class="cd-accordion__item cd-accordion__item--has-children">
-            <input class="cd-accordion__input" type="checkbox" name ="sub-group-7" id="sub-group-7">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-7"><span>Services</span></label>
-
-            <ul class="cd-accordion__sub cd-accordion__sub--l2">
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Microservices</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Software Modernisierung</span></a></li>
-            </ul>
-          </li>
-          <li class="cd-accordion__item cd-accordion__item--has-children">
-            <input class="cd-accordion__input" type="checkbox" name ="sub-group-8" id="sub-group-8">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-8"><span>Speziallösungen</span></label>
-
-            <ul class="cd-accordion__sub cd-accordion__sub--l2">
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Product LifeCycle</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>CRM</span></a></li>
-            </ul>
-          </li>
-
-          <li class="cd-accordion__item cd-accordion__item--has-children">
-            <input class="cd-accordion__input" type="checkbox" name ="group-3" id="group-3">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-3"><span>App Entwicklungen</span></label>
 
           <li class="cd-accordion__item cd-accordion__item--has-children">
             <input class="cd-accordion__input" type="checkbox" name ="sub-group-9" id="sub-group-9">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-9"><span>Mobile App Entwicklungen</span></label>
+            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-9"><span>App Entwicklungen</span></label>
 
             <ul class="cd-accordion__sub cd-accordion__sub--l2">
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>iOS App Entwicklung</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Android App Entwicklung</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Hybride App Entwicklung</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/ios.html"><span>iOS App Entwicklung</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/android.html"><span>Android App Entwicklung</span></a></li>
+              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/hybrid.html"><span>Hybride App Entwicklung (PWA)</span></a></li>
             </ul>
           </li>
 
           <li class="cd-accordion__item cd-accordion__item--has-children">
             <input class="cd-accordion__input" type="checkbox" name ="group-4" id="group-4">
-            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-4"><span>Arbeiten mit P/Card</span></label>
+            <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-4"><span>Arbeiten mit</span><span class="notranslate"> P/Card</span></label>
 
             <ul class="cd-accordion__sub cd-accordion__sub--l1">
               <li class="cd-accordion__item cd-accordion__item--has-children">
                 <input class="cd-accordion__input" type="checkbox" name ="sub-group-3" id="sub-group-3">
-                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-3"><span>Sub Group 3</span></label>
+                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-3"><span>Methodik</span></label>
 
                 <ul class="cd-accordion__sub cd-accordion__sub--l2">
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/analyse.html"><span>Analyse</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/strategie.html"><span>Strategie</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/konzept.html"><span>Konzept</span></a></li>
+                  <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/layout.html"><span>Layout</span></a></li>
                 </ul>
               </li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-              <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
+              <li class="cd-accordion__item cd-accordion__item--has-children">
+                <input class="cd-accordion__input" type="checkbox" name ="sub-group-10" id="sub-group-10">
+                <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-10"><span>Technologie</span></label>
+
+                <ul class="cd-accordion__sub cd-accordion__sub--l2">
+                  <li class="cd-accordion__item cd-accordion__item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name ="sub-group-11" id="sub-group-11">
+                    <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-11"><span>Framework</span></label>
+
+                    <ul class="cd-accordion__sub cd-accordion__sub--l2">
+                      <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/bootstrap.html"><span>Bootstrap</span></a></li>
+                      <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/symfony.html"><span>Symfony</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="cd-accordion__item cd-accordion__item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name ="sub-group-12" id="sub-group-12">
+                    <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-12"><span>Software</span></label>
+
+                    <ul class="cd-accordion__sub cd-accordion__sub--l2">
+                      <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/atlassian.html"><span>Atlassian</span></a></li>
+                      <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/git.html"><span>Git</span></a></li>
+
+                      <li class="cd-accordion__item cd-accordion__item--has-children">
+                        <input class="cd-accordion__input" type="checkbox" name ="sub-group-13" id="sub-group-13">
+                        <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-13"><span>CMS</span></label>
+
+                        <ul class="cd-accordion__sub cd-accordion__sub--l3">
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/initial.html"><span>P/Card System</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/wordpress.html"><span>Wordpress</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/typo.html"><span>Typo 3</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/joomla.html"><span>Joomla</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/magento.hmtl"><span>Magento</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="cd-accordion__item cd-accordion__item--has-children">
+                        <input class="cd-accordion__input" type="checkbox" name ="sub-group-14" id="sub-group-14">
+                        <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-14"><span>Sprachen</span></label>
+
+                        <ul class="cd-accordion__sub cd-accordion__sub--l4">
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/html_css_js.html"><span>HTML/CSS/JS</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/twig.html"><span>TWIG</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/php.html"><span>PHP</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/mysql.html"><span>MySQL</span></a></li>
+                          <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="/java.html"><span>JAVA</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </li>
         </ul>
-        <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+        <img src="assets/img/logos/Joomla.png"      style="width: auto;height: 40px;background-color: dimgrey">
+        <img src="assets/img/logos/Logo_TYPO3.png"  style="width: auto;height: 40px;background-color: dimgrey">
+        <img src="assets/img/logos/Magento.png"     style="width: auto;height: 40px;background-color: dimgrey">
+        <img src="assets/img/logos/symfony.png"     style="width: auto;height: 40px;background-color: dimgrey">
+        <img src="assets/img/logos/WordPress.png"   style="width: auto;height: 40px;background-color: dimgrey">
+        <p>Vom Pixel zum digitalen Auftritt. Von der Skizze zur Botschaft. Kommunizieren Sie richtig! Mit Ihrer Marke, Ihrem Unternehmen, Ihrem Produkt. Wir entwickeln und managen Ihr Kommunikations- und Applikationsprojekt.</p>
 
         <ul class="header-nav__social">
           <li>
-            <a href="#0"><i class="fab fa-facebook"></i></a>
+            <a href="#0"><i class="fab fa fa-facebook"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-twitter"></i></a>
+            <a href="#0"><i class="fab fa fa-twitter"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-instagram"></i></a>
+            <a href="#0"><i class="fab fa fa-instagram"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-behance"></i></a>
+            <a href="#0"><i class="fa fab fa-behance"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-dribbble"></i></a>
+            <a href="#0"><i class="fab fa fa-dribbble"></i></a>
           </li>
         </ul>
 
@@ -236,55 +288,50 @@
 
       <div class="row home-content__main">
 
-        <h1>
-          P/Card Demo
+        <h1 class="notranslate">
+          P/Card Showcase
         </h1>
 
-        <h3>
-          We build brands and beautiful experiences
-        </h3>
+        <h4 style="color: white; Font-Family: 'Futura Lt BT Light', sans-serif">
+          Wir sind ihr Full-Service-Partner für Print & digitale Kommunikation, E-Commerce und Webapplikationen
+        </h4>
 
         <div class="home-content__video">
-          <a class="video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&title=0&byline=0&portrait=0" data-lity>
+          <a class="video-link" href="assets/video/vid.mp4" data-lity>
             <span class="video-icon"></span>
-            <span class="video-text">Watch Video</span>
+            <span class="video-text " style="Font-Family:'Futura Lt BT Light', sans-serif;">Video Anschauen</span>
           </a>
         </div>
 
         <div class="home-content__button">
-          <a href="#about" class="smoothscroll btn btn&#45;&#45;primary btn&#45;&#45;large">
-            More About Us
+          <a href="#about" style="Font-Family:'Futura Lt BT Light', sans-serif;" class="smoothscroll btn btn&#45;&#45;primary btn&#45;&#45;large">
+            Über uns
           </a>
-          <a href="#contact" class="smoothscroll btn btn&#45;&#45;large">
-            Let's Talk
+          <a href="tel:+41 71 910 19 80" style="Font-Family:'Futura Lt BT Light', sans-serif;" class="smoothscroll btn btn&#45;&#45;large">
+            Anrufen
           </a>
         </div>
 
       </div>
 
-      <div class="home-content__scroll">
-        <a href="#about" class="scroll-link smoothscroll">
-          Scroll
-        </a>
-      </div>
 
     </div>
 
     <ul class="home-social">
       <li>
-        <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+        <a href="#0"><i class="fab fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
       </li>
       <li>
-        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+        <a href="#0"><i class="fab fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
       </li>
       <li>
-        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+        <a href="#0"><i class="fab fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
       </li>
       <li>
-        <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+        <a href="#0"><i class="fab fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
       </li>
       <li>
-        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+        <a href="#0"><i class="fab fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
       </li>
     </ul>
   </section>
@@ -768,7 +815,7 @@
 
   <!-- testimonies
   ================================================== -->
-  <section class="s-testimonials">
+  <section class="s-testimonials" style="Font-Family:'Futura Lt BT Light', sans-serif;">
 
     <div class="testimonials__icon" data-aos="fade-up"></div>
 
@@ -777,29 +824,26 @@
       <div class="col-full testimonials__slider" data-aos="fade-up">
 
         <div class="testimonials__slide">
-          <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
-            Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+          <p>„Seit November 2014 ist die Firma P/Card International unser externer Entwicklungspartner einer ambitionierten Cloud-Applikation. Ich bin seit 35 Jahren als Programmierer tätig und habe in den neunziger Jahren als Software-Entwicklungsingenieur in einer renommierten Software Engineering Firma gearbeitet. Daher masse ich mir an, die dargebotenen Leistungen der Firma P/Card International als Fachmann zu beurteilen: Was P/Card International von Angebot bis Verrechnung abliefert, ist an Professionalität, Effizienz und Qualität kaum zu überbieten!“.</p>
           <div class="testimonials__author">
-            Tim Cook
-            <span>CEO, Apple</span>
+            Philipp G.Weber
+            <span>Direktor der Hch.Kündig & Cie. AG</span>
           </div>
         </div> <!-- end testimonials__slide -->
 
         <div class="testimonials__slide">
-          <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-            Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+          <p>„Wir haben die P/Card International AG für die Entwicklung und Umsetzung einer E-Commerce Plattform gewählt. Die Betreuung durch P/Card als Entwicklungspartner erleben wir als sehr kompetent und die Umsetzung auch von komplexeren Aufgabenstellungen wird mit der nötigen Effizienz vorangetrieben. Dadurch konnten wir mit unserem professionellen E-Shop fristgerecht online gehen. Unsere Zufriedenheit unterstreichen wir mit der Fortsetzung der Zusammenarbeit welche ein Material-Konfigurator, Produktfinder und einen digitalen Kundenberater beinhaltet. Wir sind überzeugt auch diese neuen Projekte mit P/Card erfolgreich umzusetzen! “</p>
           <div class="testimonials__author">
-            Sundar Pichai
-            <span>CEO, Google</span>
+            Urs Dutly
+            <span>Direktor CEO der Vibraplast AG</span>
           </div>
         </div> <!-- end testimonials__slide -->
 
         <div class="testimonials__slide">
-          <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+          <p>„Wer an der Umsetzung eines komplexen Projektes arbeitet, möchte echte Profis als Gegenüber haben – und diese findet man bei der P/Card International AG. Beim Relaunch und Redesign unserer Website www.hofzuwil.ch wurden wir von anfang an freundlich begleitet und kompetent beraten, wobei unsere Ideen und Anliegen jederzeit ernst genommen wurden. Die Umsetzung von Anpassungen oder Aufträgen erfolgte dabei nicht nur zeitnah, sondern stets auch mit dem Blick fürs Ganze und fachlich einwandfrei, wobei über Prozessschritte und allfällige Kosten immer transparent informiert wurde. Das selbst entwickelte CMS der P/Card International AG, in dem Flexibilität und Usability gross geschrieben werden, war und ist das Tüpfelchen auf dem i – in diesem Sinne: Liebes Team der P/Card International AG, danke für die Unterstützung und bis zum nächsten Projekt!“</p>
           <div class="testimonials__author">
-            Satya Nadella
-            <span>CEO, Microsoft</span>
+            Stefan Hauser
+            <span>Leiter Kommunikation</span>
           </div>
         </div> <!-- end testimonials__slide -->
 
@@ -820,39 +864,38 @@
 
     <div class="row section-header narrow" data-aos="fade-up">
       <div class="col-full">
-        <h3 class="subhead">Keep In Touch</h3>
-        <h1 class="display-1">Feel free to contact us for any <br> project idea or collaboration</h1>
+        <h3 class="subhead">Kontaktieren Sie uns</h3>
       </div>
     </div> <!-- end section-header -->
 
     <div class="row contact-main" data-aos="fade-up">
       <div class="col-full">
         <p class="contact-email">
-          <a href="mailto:#0">sayhello@pcard.ch</a>
+          <a href="mailto:#0">info@pcard.ch</a>
         </p>
         <p class="contact-address">
-          1600 Amphitheatre Parkway <br>
-          Mountain View, CA, 94043 US
+          Lerchenfeldstrasse 9 <br>
+          Wil SG, 9500 CH
         </p>
         <p class="contact-numbers">
-          +1 (917) 123 456 &nbsp; +1 (917) 333 987
+          +41 71 910 19 80
         </p>
 
         <ul class="contact-social">
           <li>
-            <a href="#0"><i class="fab fa-facebook"></i></a>
+            <a href="#0"><i class="fab fa fa-facebook"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-twitter"></i></a>
+            <a href="#0"><i class="fab fa fa-twitter"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-instagram"></i></a>
+            <a href="#0"><i class="fab fa fa-instagram"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-behance"></i></a>
+            <a href="#0"><i class="fab fa fa-behance"></i></a>
           </li>
           <li>
-            <a href="#0"><i class="fab fa-dribbble"></i></a>
+            <a href="#0"><i class="fab fa fa-dribbble"></i></a>
           </li>
         </ul>
       </div>
@@ -885,8 +928,8 @@
       </div>
     </div>
 
-    <div class="ss-go-top">
-      <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+    <div class="ss-go-top" >
+      <a class="smoothscroll" title="Back to Top" style="top: -100px; font-size: 35px" href="#top"><i class="fa fa-angle-up"></i></a>
     </div>
   </footer>
 
