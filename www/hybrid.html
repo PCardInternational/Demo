@@ -42,13 +42,34 @@
         background-color: #ccc;
       }
 
-      .panel {
-        margin-bottom: 15px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-      }
+        .panel {
+            margin-bottom: 15px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+        .custom-h3 > div {
+            background-color: rgba(0,0,0,0.7);
+            margin-bottom: 6rem;
+            padding: 20px 15px;
+        }
+        .custom-h3 > div > h3 {
+            font-size: 2.8rem;
+            padding-bottom: 3rem;
+            margin: 0;
+        }
+        .custom-h3 > div > p {
+            margin: 0;
+        }
+        .custom-h3 {
+            font-size: 3.6rem;
+            font-weight: 400;
+            line-height: 1.636;
+            margin-top: 7.2rem;
+            color: #9c9c9c;
+            position: relative;
+        }
     </style>
     <link rel="manifest" href="./manifest.json">
   </head>
@@ -822,11 +843,8 @@
      home
     ==================================================-->
 <section id="custom-home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-    <div class="grid-overlay">
-        <div></div>
-    </div>
-    <div class="home-content testimonials__slider">
-        <div class="row home-content__main custom-h3" style="color:#9c9c9c!important;padding: 0 8px!important;">
+    <div class="home-content">
+        <div class="row home-content__main custom-h3" style="padding: 0 8px!important;">
             <div>
                 <h3>PWA – WAS KANN SIE?</h3>
                 <p>Mit einer „Progressive Web App“, oder kurz PWA, bringen Sie die Features einer nativen App in den Browser: Offline Nutzung, Caching, Installation am Homescreen, Push-Benachrichtigungen und mehr sind möglich und sorgen dafür, dass sich Ihre mobile Webseite für Ihre User wie eine App anfühlt. Google Play Store realisiert mit dem Chrome 72 Update den Wunsch vieler, Progressive Web Apps auch im App Store anzubieten. Dies ist ein großer Fortschritt, da das bisher nur nativen Apps vorbehalten war. Das macht Ihre App noch viel interessanter und verschafft Ihnen noch mehr Reichweite. Viele bekannte Unternehmen setzen bereits auf die PWA, wie zum Beispiel der Musikstreaming-Anbieter Spotify oder das soziale Netzwerk LinkedIn.</p>
