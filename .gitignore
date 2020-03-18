@@ -1,0 +1,3 @@
+# Ignore IDE config directories
+.idea/
+.vscode/
