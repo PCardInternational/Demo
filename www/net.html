@@ -42,13 +42,34 @@
         background-color: #ccc;
       }
 
-      .panel {
-        margin-bottom: 15px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-      }
+        .panel {
+            margin-bottom: 15px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+        .custom-h3 > div {
+            background-color: rgba(0,0,0,0.7);
+            margin-bottom: 6rem;
+            padding: 20px 15px;
+        }
+        .custom-h3 > div > h3 {
+            font-size: 2.8rem;
+            padding-bottom: 3rem;
+            margin: 0;
+        }
+        .custom-h3 > div > p {
+            margin: 0;
+        }
+        .custom-h3 {
+            font-size: 3.6rem;
+            font-weight: 400;
+            line-height: 1.636;
+            margin-top: 7.2rem;
+            color: #9c9c9c;
+            position: relative;
+        }
     </style>
     <link rel="manifest" href="./manifest.json">
   </head>
@@ -822,11 +843,8 @@
      home
     ==================================================-->
 <section id="custom-home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-    <div class="grid-overlay">
-        <div></div>
-    </div>
-    <div class="home-content testimonials__slider">
-        <div class="row home-content__main custom-h3" style="color:#9c9c9c!important;padding: 0 8px!important;">
+    <div class="home-content">
+        <div class="row home-content__main custom-h3" style="padding: 0 8px!important;">
             <div>
                 <h3>MICROSOFT .NET ENTWICKLUNG VON P/CARD</h3>
                 <p>Das umfassende .NET Framework positioniert sich auf Augenhöhe mit Java und eignet sich gleichermaßen hervorragend für die Entwicklung von Weblösungen, Desktop Anwendungen und Mobile Apps. P/Card bietet Ihnen kumulierte 100 Jahre an Erfahrung mit .NET Entwicklung.</p>
