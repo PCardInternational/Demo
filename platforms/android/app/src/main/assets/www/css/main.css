@@ -76,7 +76,7 @@ body {
 
 body {
   background: #121212;
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -186,7 +186,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.625;
@@ -225,13 +225,13 @@ b {
 
 em,
 i {
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   font-weight: 700;
 }
 
@@ -259,7 +259,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
@@ -285,7 +285,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -453,7 +453,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "Nunito Sans", sans-serif;
+  Font-Family:'Futura Lt BT Light', sans-serif;
   border-collapse: collapse;
 }
 
