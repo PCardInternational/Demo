@@ -2,9 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6feb76-9c03-46ae-9f81-5d7dddae66a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/angular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/configurator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/html_css_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/own/agentur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/own/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/own/kompetenzen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/own/news-blog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/own/projekte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/initial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/joomla.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/magento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mysql.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/symfony.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/twig.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/readme.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/analyse.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/analyse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/android.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/atlassian.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/atlassian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/www/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ecommerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/ecommerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/git.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/git.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/html_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/html_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/hybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/hybrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/individual.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/individual.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/intranet.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/intranet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ios.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/ios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/ki.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/ki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/konzept.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/konzept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/net.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/net.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/php.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/single_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/single_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/social_media.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/social_media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/social_media.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/software_modern.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/software_modern.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/strategie.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/strategie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/typo.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/typo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wordpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/wordpress.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www\images\own" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www\assets\img\logos" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start\www\img\icons" />
       <recent name="C:\Users\pcardentw4\Desktop\pwa-tutorial-basic-start" />
@@ -102,7 +144,7 @@
       <updated>1583015881335</updated>
       <workItem from="1583015882604" duration="142377000" />
       <workItem from="1583337335339" duration="27000" />
-      <workItem from="1583337384402" duration="123795000" />
+      <workItem from="1583337384402" duration="406209000" />
     </task>
     <servers />
   </component>
